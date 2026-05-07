@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("mysql-aldrinn.alwaysdata.net", "aldrinn", "TU_PASSWORD", "aldrinn_gestionarticulos");
+$conn = new mysqli("mysql-aldrinn.alwaysdata.net", "aldrinn", "clase1234", "aldrinn_gestionarticulos");
 
 if ($conn->connect_error) {
     die("Error de conexión");
